@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Trading Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image:url('https://images.app.goo.gl/VaiQazfAbUTrXER7');
+            background-size: cover;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            margin: 50px auto;
+            width: 80%;
+            border-radius: 10px;
+            display: none; /* Hide content initially */
+        }
+        .passwordPrompt {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            margin: 50px auto;
+            width: 80%;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #ffcc00;
+        }
+        .result {
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+        .period {
+            margin: 10px 0;
+        }
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="passwordPrompt" id="passwordPrompt">
+        <h2>Please Enter the Password</h2>
+        <input type="password" id="passwordInput" placeholder="Enter password">
+        <button onclick="checkPassword()">Submit</button>
+        <div id="passwordMessage"></div>
+    </div>
+
+    <div class="container" id="mainContent">
+        <h1>TC WITH TC JOD </h1>
+        <p>SERVER :- WINGO 1 MIN <br>
+ 	NOTE :- This hack is working for those id which are under tc jod 
+	<br> <strong text ="blue"> ANY PROBLEM  </STRONG>
+	 </p>
+	<a href="http://t.me/TcJod1">CONTACT </a><br>
+        <a href="https://www.tcvvip11.com/#/register?invitationCode=174738130866">REGISTER</a>
+
+        <div class="prediction">
+            <h2>Enter Results for Prediction</h2>
+            <form id="predictionForm">
+                <label for="result1">Enter 1st result:</label>
+                <input type="number" id="result1" name="result1" required><br><br>
+
+                <label for="result2">Enter 2nd result:</label>
+                <input type="number" id="result2" name="result2" required><br><br>
+
+                <label for="result3">Enter 3rd result:</label>
+                <input type="number" id="result3" name="result3" required><br><br>
+
+                <button type="submit">Predict</button>
+            </form>
+
+            <div class="result" id="predictionResult"></div>
+        </div>
+    </div>
+
+    <script>
+        const passwordPrompt = document.getElementById('passwordPrompt');
+        const mainContent = document.getElementById('mainContent');
+        const passwordInput = document.getElementById('passwordInput');
+        const passwordMessage = document.getElementById('passwordMessage');
+
+        function checkPassword() {
+            const enteredPassword = passwordInput.value;
+            if (enteredPassword === 'REDMI') { // Updated password
+                passwordPrompt.style.display = 'none';
+                mainContent.style.display = 'block';
+            } else {
+                passwordMessage.textContent = 'Incorrect password, please try again.';
+            }
+        }
+
+        const form = document.getElementById('predictionForm');
+        const resultDiv = document.getElementById('predictionResult');
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const result1 = parseInt(document.getElementById('result1').value);
+            const result2 = parseInt(document.getElementById('result2').value);
+            const result3 = parseInt(document.getElementById('result3').value);
+
+            const calculatedValue = (result1 + result3) - result2;
+
+            let prediction;
+
+            switch (calculatedValue) {
+                case 1:
+                    prediction = "BIG 1 '3";
+                    break;
+                case 2:
+                    prediction = "BIG 2 '4";
+                    break;
+                case 3:
+                    prediction = "BIG 1 '3";
+                    break;
+                case 4:
+                    prediction = "BIG 2 '4";
+                    break;
+                case 0:
+                    prediction = "BIG 0 '4";
+                    break;
+                case 5:
+                    prediction = "SMALL 5 '8";
+                    break;
+                case 6:
+                    prediction = "SMALL 6 '8";
+                    break;
+                case 7:
+                    prediction = "SMALL 7 '9";
+                    break;
+                case 8:
+                    prediction = "SMALL 6 '8";
+                    break;
+                case 9:
+                    prediction = "SMALL 7 '9";
+                    break;
+                case 10:
+                    prediction = "BIG 0 '4";
+                    break;
+                case 11:
+                    prediction = "SMALL 7 '9";
+                    break;
+                case 12:
+                    prediction = "SMALL 6 '8";
+                    break;
+                case 13:
+                    prediction = "SMALL 7 '9";
+                    break;
+                case 14:
+                    prediction = "SMALL 6 '8 ";
+                    break;
+                case 20:
+                    prediction = "SMALL 5 '8";
+                    break;
+                case 15:
+                    prediction = "SMALL 5 '8";
+                    break;
+                case 16:
+                    prediction = "BIGG  2 '4";
+                    break;
+                case 17:
+                    prediction = "BIGG 1 '3";
+                    break;
+                case 18:
+                    prediction = "BIGG 2 '4";
+                    break;
+                case 19:
+                    prediction = "BIGG 1'3";
+                    break;
+		case -1:
+                    prediction = "BIG 1 '3";
+                    break;
+                case -2:
+                    prediction = "BIG 2 '4";
+                    break;
+                case -3:
+                    prediction = "BIG 1 '3";
+                    break;
+                case -4:
+                    prediction = "BIG 2 '4";
+                    break;
+                case -5:
+                    prediction = "SMALL 5 '8";
+                    break;
+                case -6:
+                    prediction = "SMALL 6 '8";
+                    break;
+                case -7:
+                    prediction = "SMALL 7 '9";
+                    break;
+                case -8:
+                    prediction = "SMALL 6 '8";
+                    break;
+                case -9:
+                    prediction = "SMALL 7 '9";
+                    break;
+
+
+
+
+
+
+
+		default:
+                    prediction = "SKIPP.";
+            }
+
+            resultDiv.textContent = `Prediction: ${prediction}`;
+
+            // Shift results after 5 seconds
+            setTimeout(() => {
+                document.getElementById('result1').value = ''; // Clear the 1st result box
+                document.getElementById('result2').value = result1; // Shift 1st result to 2nd result box
+                document.getElementById('result3').value = result2; // Shift 2nd result to 3rd result box
+            }, 5000); // 5000 milliseconds = 5 seconds
+        });
+    </script>
+</body>
+</html>
